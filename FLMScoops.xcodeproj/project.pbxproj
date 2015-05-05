@@ -1,0 +1,503 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ED4324AD1AF8418900FB8860 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ED4324AC1AF8418900FB8860 /* main.m */; };
+		ED4324B01AF8418900FB8860 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ED4324AF1AF8418900FB8860 /* AppDelegate.m */; };
+		ED4324B81AF8418900FB8860 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED4324B71AF8418900FB8860 /* Images.xcassets */; };
+		ED4324BB1AF8418900FB8860 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED4324B91AF8418900FB8860 /* LaunchScreen.xib */; };
+		ED4324C71AF8418900FB8860 /* FLMScoopsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ED4324C61AF8418900FB8860 /* FLMScoopsTests.m */; };
+		ED4324E41AF87F8200FB8860 /* FLMAddNewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED4324D21AF87F8200FB8860 /* FLMAddNewsViewController.m */; };
+		ED4324E51AF87F8200FB8860 /* FLMAddNewsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED4324D31AF87F8200FB8860 /* FLMAddNewsViewController.xib */; };
+		ED4324E61AF87F8200FB8860 /* FLMNewsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED4324D51AF87F8200FB8860 /* FLMNewsTableViewController.m */; };
+		ED4324E71AF87F8200FB8860 /* FLMNewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED4324D71AF87F8200FB8860 /* FLMNewsViewController.m */; };
+		ED4324E81AF87F8200FB8860 /* FLMNewsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED4324D81AF87F8200FB8860 /* FLMNewsViewController.xib */; };
+		ED4324EB1AF87F8200FB8860 /* FLMScoopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED4324DD1AF87F8200FB8860 /* FLMScoopViewController.m */; };
+		ED4324EC1AF87F8200FB8860 /* FLMScoopViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED4324DE1AF87F8200FB8860 /* FLMScoopViewController.xib */; };
+		ED4324ED1AF87F8200FB8860 /* FLMNews.m in Sources */ = {isa = PBXBuildFile; fileRef = ED4324E11AF87F8200FB8860 /* FLMNews.m */; };
+		ED4324EE1AF87F8200FB8860 /* FLMUser.m in Sources */ = {isa = PBXBuildFile; fileRef = ED4324E31AF87F8200FB8860 /* FLMUser.m */; };
+		ED4325321AF87FFA00FB8860 /* WindowsAzureMobileServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED4325311AF87FFA00FB8860 /* WindowsAzureMobileServices.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ED4324C11AF8418900FB8860 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED43249F1AF8418900FB8860 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED4324A61AF8418900FB8860;
+			remoteInfo = FLMScoops;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ED4324A71AF8418900FB8860 /* FLMScoops.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FLMScoops.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED4324AB1AF8418900FB8860 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED4324AC1AF8418900FB8860 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ED4324AE1AF8418900FB8860 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ED4324AF1AF8418900FB8860 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ED4324B71AF8418900FB8860 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		ED4324BA1AF8418900FB8860 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		ED4324C01AF8418900FB8860 /* FLMScoopsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FLMScoopsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED4324C51AF8418900FB8860 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED4324C61AF8418900FB8860 /* FLMScoopsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLMScoopsTests.m; sourceTree = "<group>"; };
+		ED4324D11AF87F8200FB8860 /* FLMAddNewsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLMAddNewsViewController.h; sourceTree = "<group>"; };
+		ED4324D21AF87F8200FB8860 /* FLMAddNewsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLMAddNewsViewController.m; sourceTree = "<group>"; };
+		ED4324D31AF87F8200FB8860 /* FLMAddNewsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FLMAddNewsViewController.xib; sourceTree = "<group>"; };
+		ED4324D41AF87F8200FB8860 /* FLMNewsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLMNewsTableViewController.h; sourceTree = "<group>"; };
+		ED4324D51AF87F8200FB8860 /* FLMNewsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLMNewsTableViewController.m; sourceTree = "<group>"; };
+		ED4324D61AF87F8200FB8860 /* FLMNewsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLMNewsViewController.h; sourceTree = "<group>"; };
+		ED4324D71AF87F8200FB8860 /* FLMNewsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLMNewsViewController.m; sourceTree = "<group>"; };
+		ED4324D81AF87F8200FB8860 /* FLMNewsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FLMNewsViewController.xib; sourceTree = "<group>"; };
+		ED4324DC1AF87F8200FB8860 /* FLMScoopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLMScoopViewController.h; sourceTree = "<group>"; };
+		ED4324DD1AF87F8200FB8860 /* FLMScoopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLMScoopViewController.m; sourceTree = "<group>"; };
+		ED4324DE1AF87F8200FB8860 /* FLMScoopViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FLMScoopViewController.xib; sourceTree = "<group>"; };
+		ED4324E01AF87F8200FB8860 /* FLMNews.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLMNews.h; sourceTree = "<group>"; };
+		ED4324E11AF87F8200FB8860 /* FLMNews.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLMNews.m; sourceTree = "<group>"; };
+		ED4324E21AF87F8200FB8860 /* FLMUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLMUser.h; sourceTree = "<group>"; };
+		ED4324E31AF87F8200FB8860 /* FLMUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLMUser.m; sourceTree = "<group>"; };
+		ED4325311AF87FFA00FB8860 /* WindowsAzureMobileServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WindowsAzureMobileServices.framework; sourceTree = "<group>"; };
+		ED4325331AF8804400FB8860 /* Settings.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Settings.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED4324A41AF8418900FB8860 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED4325321AF87FFA00FB8860 /* WindowsAzureMobileServices.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED4324BD1AF8418900FB8860 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ED43249E1AF8418900FB8860 = {
+			isa = PBXGroup;
+			children = (
+				ED4325311AF87FFA00FB8860 /* WindowsAzureMobileServices.framework */,
+				ED4324A91AF8418900FB8860 /* FLMScoops */,
+				ED4324C31AF8418900FB8860 /* FLMScoopsTests */,
+				ED4324A81AF8418900FB8860 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ED4324A81AF8418900FB8860 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED4324A71AF8418900FB8860 /* FLMScoops.app */,
+				ED4324C01AF8418900FB8860 /* FLMScoopsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED4324A91AF8418900FB8860 /* FLMScoops */ = {
+			isa = PBXGroup;
+			children = (
+				ED4324AE1AF8418900FB8860 /* AppDelegate.h */,
+				ED4324AF1AF8418900FB8860 /* AppDelegate.m */,
+				ED4325331AF8804400FB8860 /* Settings.h */,
+				ED4324D01AF87F8200FB8860 /* Controllers */,
+				ED4324DF1AF87F8200FB8860 /* Model */,
+				ED4324B71AF8418900FB8860 /* Images.xcassets */,
+				ED4324B91AF8418900FB8860 /* LaunchScreen.xib */,
+				ED4324AA1AF8418900FB8860 /* Supporting Files */,
+			);
+			path = FLMScoops;
+			sourceTree = "<group>";
+		};
+		ED4324AA1AF8418900FB8860 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ED4324AB1AF8418900FB8860 /* Info.plist */,
+				ED4324AC1AF8418900FB8860 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ED4324C31AF8418900FB8860 /* FLMScoopsTests */ = {
+			isa = PBXGroup;
+			children = (
+				ED4324C61AF8418900FB8860 /* FLMScoopsTests.m */,
+				ED4324C41AF8418900FB8860 /* Supporting Files */,
+			);
+			path = FLMScoopsTests;
+			sourceTree = "<group>";
+		};
+		ED4324C41AF8418900FB8860 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ED4324C51AF8418900FB8860 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ED4324D01AF87F8200FB8860 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				ED4324D11AF87F8200FB8860 /* FLMAddNewsViewController.h */,
+				ED4324D21AF87F8200FB8860 /* FLMAddNewsViewController.m */,
+				ED4324D31AF87F8200FB8860 /* FLMAddNewsViewController.xib */,
+				ED4324D41AF87F8200FB8860 /* FLMNewsTableViewController.h */,
+				ED4324D51AF87F8200FB8860 /* FLMNewsTableViewController.m */,
+				ED4324D61AF87F8200FB8860 /* FLMNewsViewController.h */,
+				ED4324D71AF87F8200FB8860 /* FLMNewsViewController.m */,
+				ED4324D81AF87F8200FB8860 /* FLMNewsViewController.xib */,
+				ED4324DC1AF87F8200FB8860 /* FLMScoopViewController.h */,
+				ED4324DD1AF87F8200FB8860 /* FLMScoopViewController.m */,
+				ED4324DE1AF87F8200FB8860 /* FLMScoopViewController.xib */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		ED4324DF1AF87F8200FB8860 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				ED4324E01AF87F8200FB8860 /* FLMNews.h */,
+				ED4324E11AF87F8200FB8860 /* FLMNews.m */,
+				ED4324E21AF87F8200FB8860 /* FLMUser.h */,
+				ED4324E31AF87F8200FB8860 /* FLMUser.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED4324A61AF8418900FB8860 /* FLMScoops */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED4324CA1AF8418900FB8860 /* Build configuration list for PBXNativeTarget "FLMScoops" */;
+			buildPhases = (
+				ED4324A31AF8418900FB8860 /* Sources */,
+				ED4324A41AF8418900FB8860 /* Frameworks */,
+				ED4324A51AF8418900FB8860 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FLMScoops;
+			productName = FLMScoops;
+			productReference = ED4324A71AF8418900FB8860 /* FLMScoops.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ED4324BF1AF8418900FB8860 /* FLMScoopsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED4324CD1AF8418900FB8860 /* Build configuration list for PBXNativeTarget "FLMScoopsTests" */;
+			buildPhases = (
+				ED4324BC1AF8418900FB8860 /* Sources */,
+				ED4324BD1AF8418900FB8860 /* Frameworks */,
+				ED4324BE1AF8418900FB8860 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED4324C21AF8418900FB8860 /* PBXTargetDependency */,
+			);
+			name = FLMScoopsTests;
+			productName = FLMScoopsTests;
+			productReference = ED4324C01AF8418900FB8860 /* FLMScoopsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED43249F1AF8418900FB8860 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = F3rn4nd0;
+				TargetAttributes = {
+					ED4324A61AF8418900FB8860 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					ED4324BF1AF8418900FB8860 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = ED4324A61AF8418900FB8860;
+					};
+				};
+			};
+			buildConfigurationList = ED4324A21AF8418900FB8860 /* Build configuration list for PBXProject "FLMScoops" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ED43249E1AF8418900FB8860;
+			productRefGroup = ED4324A81AF8418900FB8860 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED4324A61AF8418900FB8860 /* FLMScoops */,
+				ED4324BF1AF8418900FB8860 /* FLMScoopsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED4324A51AF8418900FB8860 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED4324EC1AF87F8200FB8860 /* FLMScoopViewController.xib in Resources */,
+				ED4324E81AF87F8200FB8860 /* FLMNewsViewController.xib in Resources */,
+				ED4324E51AF87F8200FB8860 /* FLMAddNewsViewController.xib in Resources */,
+				ED4324BB1AF8418900FB8860 /* LaunchScreen.xib in Resources */,
+				ED4324B81AF8418900FB8860 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED4324BE1AF8418900FB8860 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED4324A31AF8418900FB8860 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED4324EE1AF87F8200FB8860 /* FLMUser.m in Sources */,
+				ED4324ED1AF87F8200FB8860 /* FLMNews.m in Sources */,
+				ED4324E61AF87F8200FB8860 /* FLMNewsTableViewController.m in Sources */,
+				ED4324EB1AF87F8200FB8860 /* FLMScoopViewController.m in Sources */,
+				ED4324E41AF87F8200FB8860 /* FLMAddNewsViewController.m in Sources */,
+				ED4324B01AF8418900FB8860 /* AppDelegate.m in Sources */,
+				ED4324AD1AF8418900FB8860 /* main.m in Sources */,
+				ED4324E71AF87F8200FB8860 /* FLMNewsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED4324BC1AF8418900FB8860 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED4324C71AF8418900FB8860 /* FLMScoopsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ED4324C21AF8418900FB8860 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED4324A61AF8418900FB8860 /* FLMScoops */;
+			targetProxy = ED4324C11AF8418900FB8860 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ED4324B91AF8418900FB8860 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED4324BA1AF8418900FB8860 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ED4324C81AF8418900FB8860 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		ED4324C91AF8418900FB8860 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED4324CB1AF8418900FB8860 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = FLMScoops/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FLMScoops.xcodeproj/WindowsAzureMobileServices.framework/Versions/A",
+					"$(PROJECT_DIR)/FLMScoops.xcodeproj/WindowsAzureMobileServices.framework/Versions/Current",
+					"$(PROJECT_DIR)/FLMScoops.xcodeproj/WindowsAzureMobileServices.framework",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ED4324CC1AF8418900FB8860 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = FLMScoops/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FLMScoops.xcodeproj/WindowsAzureMobileServices.framework/Versions/A",
+					"$(PROJECT_DIR)/FLMScoops.xcodeproj/WindowsAzureMobileServices.framework/Versions/Current",
+					"$(PROJECT_DIR)/FLMScoops.xcodeproj/WindowsAzureMobileServices.framework",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		ED4324CE1AF8418900FB8860 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FLMScoopsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FLMScoops.app/FLMScoops";
+			};
+			name = Debug;
+		};
+		ED4324CF1AF8418900FB8860 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FLMScoopsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FLMScoops.app/FLMScoops";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED4324A21AF8418900FB8860 /* Build configuration list for PBXProject "FLMScoops" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED4324C81AF8418900FB8860 /* Debug */,
+				ED4324C91AF8418900FB8860 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED4324CA1AF8418900FB8860 /* Build configuration list for PBXNativeTarget "FLMScoops" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED4324CB1AF8418900FB8860 /* Debug */,
+				ED4324CC1AF8418900FB8860 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ED4324CD1AF8418900FB8860 /* Build configuration list for PBXNativeTarget "FLMScoopsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED4324CE1AF8418900FB8860 /* Debug */,
+				ED4324CF1AF8418900FB8860 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ED43249F1AF8418900FB8860 /* Project object */;
+}
